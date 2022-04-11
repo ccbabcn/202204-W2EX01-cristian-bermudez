@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "sass": "^1.50.0",
+    "husky": "^7.0.0"
+  },
+  "scripts": {
+    "prepare": "husky install",
+    "sassing": "sass styles/sass/style.scss styles/css/style.css --watch",
+    "live-sassing": "sass styles/sass/style.scss styles/css/style.css"
+  }
+}
